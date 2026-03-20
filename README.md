@@ -23,5 +23,5 @@ chmod +x src/scripts/*.sh
 ### Setup HA Cluster
 
 ```bash
-./src/scripts/ha_setup.sh
+./src/scripts/ha_cluster_setup.sh
 ```
