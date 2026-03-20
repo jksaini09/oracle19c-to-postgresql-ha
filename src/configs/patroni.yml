@@ -1,0 +1,10 @@
+scope: cluster_1
+namespace: percona_lab
+
+postgresql:
+  listen: 0.0.0.0:5432
+  data_dir: /var/lib/pgsql/14/data
+  authentication:
+    superuser:
+      username: postgres
+      password: postgres
